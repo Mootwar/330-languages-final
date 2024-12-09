@@ -1,0 +1,45 @@
+# Nim Implementation
+import math
+
+# Function to compute the sum of squares
+proc sumOfSquares(n: int): int =
+    result = 0
+    for i in 1..n:
+        result += i * i
+
+# Entry point
+let n = 10
+echo "Sum of squares in Nim:", sumOfSquares(n)
+
+
+
+# C++ Implementation
+#include <iostream>
+#include <cmath>
+
+// Function to compute the sum of squares
+int sumOfSquares(int n) {
+    int result = 0;
+    for (int i = 1; i <= n; ++i) {
+        result += i * i;
+    }
+    return result;
+}
+
+int main() {
+    int n = 10;
+    std::cout << "Sum of squares in C++: " << sumOfSquares(n) << std::endl;
+    return 0;
+}
+
+
+
+# Python Implementation
+
+# Function to compute the sum of squares
+def sum_of_squares(n):
+    return sum(i * i for i in range(1, n + 1))
+
+# Entry point
+n = 10
+print("Sum of squares in Python:", sum_of_squares(n))
