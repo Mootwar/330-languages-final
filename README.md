@@ -9,3 +9,5 @@ Final project repo for 330
 - alloc_over test: The allocation overhead test measures how much time is spend on allocating and deallocating memory.
 - call test: This is a trivial function call benchmark measures the overhead of repeatedly invoking a trivial function.
 - fill test: This is a dynamic array fill benchmark measures the performance of dynamically allocating and filling a large vector
+#### Citacion
+- Alliance, Z. (Ed.). (n.d.). Andreas Rumpf at Nim workshop. YouTube. https://youtu.be/zb3Sqs7lNJo ​
